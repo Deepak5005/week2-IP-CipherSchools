@@ -1,0 +1,27 @@
+h1{
+    border:20px dotted brown;
+    /* padding-left: 40px;
+    padding-top: 80px;
+    padding-right:40px;
+    padding-bottom:20px; */
+    /* padding:40px;  */
+    /* here 40 px is top,bottom,rightand left */
+    /* padding: 20px 40px; */
+    /* 20px is  top and bottom and 40 px is left and right */
+    /* padding: 20px 30px 40px 50px ; */
+    /* top,right,bottom,left (understand like clock-wise direction) */
+    padding:10px;
+    /* margin-left:100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 100px;
+    margin:40px 80px;
+    margin:10px 20px 30px 40px; */
+    /* it only counts what is there bottom that is it counts 10,20,30,40 */
+    width: 500px;
+    margin: 20 px auto;
+    text-align: center;
+    background-color: lightblue;
+    /* background color starts from where the margin starts */
+}
+

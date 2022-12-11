@@ -1,0 +1,18 @@
+/* a{
+    border: 2px solid black;
+    margin:50px;
+    padding: 50px;
+    height: 100px;
+    width:100px;
+} */
+/* here nothing is useful of padding,height,width only border and padding exists */
+a{
+    border:2px solid black;
+    display:inline-block;
+    /* in inline only the width can adjust according to its words*/
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 100px
+}
+

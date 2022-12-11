@@ -1,0 +1,32 @@
+/* inline style attribute >Id selector> class selector  > element selector it means class selectors can get  more preference than normal element selector */
+h1{
+    color: green;
+}
+/* here for both h1class and heading has same specificity but what we written down has more more specificity than what we wriiten in up */
+/* .h1class{
+    color: red;
+}
+.heading{
+    color: magenta;
+} */
+/*  but here h1.h1class or h1.heading has more specificity than h1class and heading */
+/* h1.h1class{
+    color: red;
+}
+.heading{
+    color: magenta;
+} */
+
+h1.heading{
+    color:magenta;
+}
+/* 0,0,1,1-->11 */
+.h1class{
+    color:red;
+}
+/* 0,0,1,0 -->10*/
+/* #h1id{
+    color: blue;
+
+} */
+
